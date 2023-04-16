@@ -34,6 +34,8 @@
   body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: #000;
   }
 
   .container {
@@ -41,3 +43,135 @@
     margin: 0 auto;
     padding: 0 20px;
   }
+
+  .site__header {
+    background-color: #282828;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .main__wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+  }
+
+  .middle__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .navigation__list {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-right: 683px;
+  }
+
+ .navigation__items{
+    float: left;
+    margin-right: 30px;
+ }
+
+ .navigation__items:last-child {
+    margin-right: 0;
+ }
+
+ .navigation__link {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+ }
+
+ .image {
+    margin-left: 25px;
+ }
+
+ .site__aside {  
+    position: relative;
+    background-image: url('./images/Header.svg');
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-bottom: 30px;
+ }
+
+
+ .text__wrapper > h1 {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 50px;
+    padding-top: 204px;
+ }
+
+ .text__wrapper > a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 470px;
+    padding: 13px 14px;
+ }
+
+ .hero {
+    padding-bottom: 79px;
+ }
+
+ .hero__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+ }
+
+ .hero__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+ }
+
+ .hero__items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+ }
+
+ .hero__items:nth-child(1) > p {
+    margin-right: 30px;
+    padding-bottom: 100px;
+ }
+
+ .hero__items:nth-child(2) {
+    flex-direction: row-reverse;
+ }
+
+ .hero__items:nth-child(2) > p {
+    margin-left: 87px;
+ }
+
+ .hero__items:nth-child(3) {
+    justify-content: space-around;
+ }
+
+ .hero__items > p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin: 0;
+ }
+
+ .first__text {
+    margin-right: 83px;
+ }
+ 
